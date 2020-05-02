@@ -1,0 +1,23 @@
+{
+  "name": "vscodebug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/extension",
+  "scripts": {
+    "compile": "tsc -b",
+    "watch": "tsc -b -w"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.11.7",
+    "@types/vscode": "1.43.0",
+    "typescript": "^3.8.3"
+  }
+}
